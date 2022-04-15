@@ -21,5 +21,11 @@ class LoggingHelper {
         }
     }
 
+    fun printVerboseLog(message: String){
+        if(ENABLE_LOGS) {
+            Log.v(TAG, message)
+        }
+    }
+
 
 }
